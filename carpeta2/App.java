@@ -14,7 +14,7 @@ public class App {
         double importes[][]=new double [3][4];
         Grupo mesas[]=new Grupo[4];
         Vector <Grupo> cola=new Vector<Grupo>();
-
+		System.out.println("Nueva linea");
         do{
             System.out.println("Anota opcion: ");
             System.out.println("1.Llegar\n2.Servir\n3.Pagar\n4.Juntar\n5.Informacion");
